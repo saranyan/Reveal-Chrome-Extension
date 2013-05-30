@@ -6,9 +6,13 @@ My news feed is full of stories about startups. There are way too many of them t
 ### Solution
 I built a simple Chrome extension that looks at Angel list and Crunchbase data and displays an non-annoying popup with the company's description.
 
+
 ### Steps
 Install the extension and select a text on a webpage. If what you selected is a company name, it will pull the info from Angel list and/or Crunchbase.
 
 The only catch at this point is that, there are no validations. That means you select some random text, you are at the mercy of API gods at Angel list and Crunchbase. Use wisely! :)
+
+### Some things
+You can change the manifest file to include permissions on only few sites where you want this to be active.
 
 Feel free to fork and pull to make this even more awesome!
